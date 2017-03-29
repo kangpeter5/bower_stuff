@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Bower Component Tutorial",
+  "author": "Pete Kang",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "latest",
+    "bootstrap": "*",
+    "jquery": "latest"
+  }
+}

@@ -1,0 +1,35 @@
+Link: https://www.youtube.com/watch?v=Vs2wduoN9Ws&index=9&list=PLoYCgNOIyGAB0_YBfdNP5oqAD98HtAQqL
+
+Stop downloading javascript and css files yourself! Bower is an extremely useful package manager for web development that not only does the downloading for you, it allows for quick and easy install of all dependencies at once and gives you a method for sharing those dependencies with others.
+
+Bower allows you to instantly add jQuery, backbone, or any other framework to your project. You can then save what you added to a bower package allowing everyone else working on your project to install all those dependencies with one command.
+
+Bower also allows you to add Github url's for in-house dependencies.
+
+// in gitbash
+1. check node version via:
+node -v 
+
+2. install bower
+npm install -g bower
+
+3. install necesary APIs
+bower install jquery
+
+4. if you want to know which folder or 'paths' you want to use:
+bower list --paths
+the above spits out : " jquery: 'bower_components/jquery/dist/jquery.js' "
+
+5. use that src link to add it to your scripts
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+
+6. if you install backbone:
+bower install backbone
+it will automatically install underscore with it
+
+7. if you want to use a certain version only
+bower install jquery#2.0.1
+
+8. You can add these bower components to your git... BUT it will slow down the upload process and take up a lot of memory
+
+9. make a package file
